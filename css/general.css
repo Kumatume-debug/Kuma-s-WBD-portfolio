@@ -1,0 +1,43 @@
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(166, 223, 147);
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+body {
+  /* width: 100vw;
+  height: 100vh; */
+  padding: 0px;
+  margin: 0px;
+}
+
+.links-area {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+main {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#content-area {
+  /* width: 100%; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 96, 96);
+  gap: 4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-attachment: rgb(140, 226, 140);
+}
